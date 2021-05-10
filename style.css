@@ -1,0 +1,105 @@
+*{
+    margin: 0;/*define a área de margem*/
+    padding: 0;/*define uma a distância entre o conteúdo de um elemento e suas bordas*/
+    font-family: 'Poppins', sans-serif;/*fonte*/
+}
+
+.hero{
+    width: 100%;/*determina a largura da área de conteúdo de um elemento*/
+    min-height: 100vh;/*é usado para definir a altura mínima de um determinado elemento*/
+    background: linear-gradient(45deg, #a700ff, #4d19db);/*é um atalho para definir os valores de fundo individuais em um único lugar na folha de estilo*/
+    /*linear-gradient - nível básico. O gradiente é renderizado como uma imagem de fundo, então podemos chamá-lo assim*/
+    padding-left: 8%; /*é um elemento que define o espaço de preenchimento obrigatório no lado esquerdo de um elemento*/
+    padding-right: 8%;/*define uma a distância entre o conteúdo de um elemento e suas bordas*/
+    box-sizing: border-box;/*é utilizada para alterar a propriedade padrão da box model, usada para calcular larguras (widths) e alturas (heights) dos elementos*/
+    color: #fff;/*definine o valor da cor de um elemento com seu conteúdo em texto e seus decorações*/
+}
+
+nav{
+    display: flex;
+    align-items: center;/*estabelece o valor align-self em todos filhos diretos como um grupo.*/
+    padding: 30px 0;/*A propriedade padding define uma a distância entre o conteúdo de um elemento e suas bordas.*/
+}
+
+.logo{
+    width: 100px;/*determina a largura da área de conteúdo de um elemento*/
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;/*definine o valor da cor de um elemento com seu conteúdo em texto e seus decorações*/
+}
+
+.btn{
+    border: 2px solid #fff;
+    padding: 6px 25px;/*define uma a distância entre o conteúdo de um elemento*/
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    justify-content: space-between;/*é empregada para alinhar os elementos ao longo do eixo principal, cuja direção*/
+}
+
+.col-1{
+    flex-basis: 40%;
+    min-width: 300px;
+    margin-bottom: 30px;
+}
+
+.col-2{
+    flex-basis: 55%;
+    min-width: 300px;
+    margin-bottom: 30px;
+}
+
+.col-1 img{
+    width: 100%;
+}
+
+.col-2 h1{
+    font-size: 62px;
+    font-weight: 600;
+}
+
+span{
+    color: yellow;/*definine o valor da cor de um elemento com seu conteúdo em texto e seus decorações*/
+}
+
+.col-2 p{
+    margin: 10px 0 50px;/*define a área de margem*/
+    max-width: 580px;
+}
+
+.col-2 .btn{
+    margin-left: 0;
+    margin-right: 30px;
+    background: #fff;
+    color: #4d19db;/*definine o valor da cor de um elemento com seu conteúdo em texto e seus decorações*/
+    font-weight: 500;
+}
+
+.rodapé{
+    min-height: 12vh;
+    min-width: 300px;
+    margin-bottom: 30px;
+    font-size: 10px;
+}
+
+/* css. index.html acima ^ */
+
+
