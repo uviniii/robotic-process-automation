@@ -2,7 +2,7 @@
 
 > Nossa empresa utilizará a aplicação tecnológica que visa automatizar processos corporativos, com o uso de ferramentas estruturadas capazes de realizar determinadas tarefas.
 
-<img align="right" src="" width="200">
+<img align="right" src="robotic-process-automation/imagens/brain-5564173_1280.png" width="200">
 
 ## Pense bem:
 
