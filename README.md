@@ -1,6 +1,7 @@
 # Robotic-Process-Automation
 
 > Nossa empresa utilizará a aplicação tecnológica que visa automatizar processos corporativos, com o uso de ferramentas estruturadas capazes de realizar determinadas tarefas.
+> Você pode considerar o uso do RPA em cenários de todos os tipos, seja no envio de um simples e-mail de agradecimento, como na implantação de bots para automatizar tarefas em um sistema complexo, como um CRM.
 
 <img align="right" src="imagens/brain-5564173_1280.png" width="200">
 
