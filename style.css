@@ -77,7 +77,7 @@ a{
 }
 
 span{
-    color: yellow;/*definine o valor da cor de um elemento com seu conteúdo em texto e seus decorações*/
+    color: #FB8500;/*definine o valor da cor de um elemento com seu conteúdo em texto e seus decorações*/
 }
 
 .col-2 p{
