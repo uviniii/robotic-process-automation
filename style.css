@@ -127,6 +127,9 @@ body{
     font-size: 20px;
     color:#FB8500 ;
     margin-left: 30px;
+    border: 2px solid #fff;
+    padding: 6px 25px;
+    border-radius: 30px;
     cursor: pointer;
 }
 
