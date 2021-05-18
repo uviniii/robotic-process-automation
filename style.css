@@ -41,13 +41,6 @@ a{
     color: #fff;/*definine o valor da cor de um elemento com seu conteúdo em texto e seus decorações*/
 }
 
-.btn{
-    border: 2px solid #fff;
-    padding: 6px 25px;/*define uma a distância entre o conteúdo de um elemento*/
-    border-radius: 30px;
-    margin-left: 30px;
-}
-
 .row{
     display: flex;
     flex-wrap: wrap;
