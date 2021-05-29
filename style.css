@@ -4,10 +4,10 @@
     font-family: 'Poppins', sans-serif;/*fonte*/
 }
 
-.hero{
+.main{
     width: 100%;/*determina a largura da área de conteúdo de um elemento*/
     min-height: 100vh;/*é usado para definir a altura mínima de um determinado elemento*/
-    background: linear-gradient(45deg, #ff6d00, #4d19db);/*é um atalho para definir os valores de fundo individuais em um único lugar na folha de estilo*/
+    background: linear-gradient(45deg, #3fc1c0, #2d00f7);/*é um atalho para definir os valores de fundo individuais em um único lugar na folha de estilo*/
     /*linear-gradient - nível básico. O gradiente é renderizado como uma imagem de fundo, então podemos chamá-lo assim*/
     padding-left: 8%; /*é um elemento que define o espaço de preenchimento obrigatório no lado esquerdo de um elemento*/
     padding-right: 8%;/*define uma a distância entre o conteúdo de um elemento e suas bordas*/
@@ -43,8 +43,6 @@ a{
 
 .row{
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 10%;
     justify-content: space-between;/*é empregada para alinhar os elementos ao longo do eixo principal, cuja direção*/
 }
 
@@ -61,11 +59,11 @@ a{
 }
 
 .col-1 img{
-    width: 100%;
+    width: 600px;
 }
 
 .col-2 h1{
-    font-size: 62px;
+    font-size: 50px;
     font-weight: 600;
 }
 
@@ -86,10 +84,7 @@ span{
     font-weight: 500;
 }
 
-.rodapé{
-    min-height: 12vh;
-    min-width: 300px;
-    margin-bottom: 30px;
+.baseboard{
     font-size: 10px;
 }
 body{
@@ -135,4 +130,11 @@ body{
 .article-btn:hover {
 	background-color: #FB8500;
 	color: #fff;
+}
+.pdt{
+    width: 320px;
+    height: 320px;
+    position:relative;
+    float:right;
+}
 
